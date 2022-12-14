@@ -1,0 +1,129 @@
+* {
+    margin:0px;
+    padding: 5PX;
+}
+#Pasos{
+    width:700px;
+    background-color: rgb(171, 101, 51);
+}
+
+.pasostitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold ;
+    text-decoration: underline;
+    text-align: center;
+}
+.textopasos{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.tituloingredientes{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+
+}
+.listaingredientes{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+#ingredientes{
+    background-color: rgb(171, 101, 51);
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.masrecetas{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.flexcontainermenu{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenpanqueque{
+    width: 300px; height: 200px;
+}
+
+.flexcontainer{
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+
+.flexcontainer > div{
+    width:200px;
+
+}
+.flexcontainer2{
+    display: flex;
+    justify-content: center;
+    flex-basis: 500px;
+    
+}
+.flexcontainer3{
+    display: flex;  
+    justify-content: center;
+}
+body{
+    background-color: rgb(234, 189, 137);
+}
+
+.flexcontainermenu > div { 
+
+    width:500px;
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav {
+    width:500px; 
+    margin:0 auto; 
+    align-content: center;
+}
+
+.nav > li {
+float: left;
+}
+
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:absolute;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
